@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pyamcha/Desktop/c02/ex00/Fixed.cpp
+Fixed.hpp
+/Users/pyamcha/Desktop/c02/ex00/Fixed.hpp
+
+/Users/pyamcha/Desktop/c02/ex00/Fixed.hpp
+iostream
+-
+
