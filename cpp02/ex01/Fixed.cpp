@@ -42,7 +42,7 @@ int Fixed::toInt( void ) const {
 }
 
 float Fixed::toFloat( void ) const {
-	return ((float)this->fix / ((float)(1 << this->bits)));
+	return ((float)((float)this->fix / ((float)(1 << this->bits))));
 }
 
 void Fixed::setRawBits(const int raw) {

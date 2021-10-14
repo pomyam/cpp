@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pyamcha/Desktop/c01/ex03/HumanA.cpp
+HumanA.hpp
+/Users/pyamcha/Desktop/c01/ex03/HumanA.hpp
+
+/Users/pyamcha/Desktop/c01/ex03/HumanA.hpp
+Weapon.hpp
+/Users/pyamcha/Desktop/c01/ex03/Weapon.hpp
+
+/Users/pyamcha/Desktop/c01/ex03/HumanB.cpp
+HumanB.hpp
+/Users/pyamcha/Desktop/c01/ex03/HumanB.hpp
+
+/Users/pyamcha/Desktop/c01/ex03/HumanB.hpp
+Weapon.hpp
+/Users/pyamcha/Desktop/c01/ex03/Weapon.hpp
+
+/Users/pyamcha/Desktop/c01/ex03/Weapon.cpp
+Weapon.hpp
+/Users/pyamcha/Desktop/c01/ex03/Weapon.hpp
+
+/Users/pyamcha/Desktop/c01/ex03/Weapon.hpp
+iostream
+-
+
+/Users/pyamcha/Desktop/c01/ex03/main.cpp
+HumanA.hpp
+/Users/pyamcha/Desktop/c01/ex03/HumanA.hpp
+HumanB.hpp
+/Users/pyamcha/Desktop/c01/ex03/HumanB.hpp
+

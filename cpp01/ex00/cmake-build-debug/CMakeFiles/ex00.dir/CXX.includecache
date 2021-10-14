@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pyamcha/Desktop/c01/ex00/Zombie.h
+iostream
+-
+string
+-
+iomanip
+-
+
+/Users/pyamcha/Desktop/c01/ex00/main.cpp
+Zombie.h
+/Users/pyamcha/Desktop/c01/ex00/Zombie.h
+

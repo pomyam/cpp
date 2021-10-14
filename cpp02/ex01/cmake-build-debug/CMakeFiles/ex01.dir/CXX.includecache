@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/pyamcha/Desktop/c02/ex01/Fixed.cpp
+/Users/pyamcha/Desktop/cpp02/ex01/Fixed.cpp
 Fixed.hpp
-/Users/pyamcha/Desktop/c02/ex01/Fixed.hpp
+/Users/pyamcha/Desktop/cpp02/ex01/Fixed.hpp
 
-/Users/pyamcha/Desktop/c02/ex01/Fixed.hpp
+/Users/pyamcha/Desktop/cpp02/ex01/Fixed.hpp
 iostream
 -
 cmath

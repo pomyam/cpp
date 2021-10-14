@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pyamcha/Desktop/c02/ex02
+CMAKE_SOURCE_DIR = /Users/pyamcha/Desktop/cpp02/ex02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pyamcha/Desktop/c02/ex02/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/pyamcha/Desktop/cpp02/ex02/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pyamcha/Desktop/c02/ex02/cmake-build-debug/CMakeFiles /Users/pyamcha/Desktop/c02/ex02/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pyamcha/Desktop/cpp02/ex02/cmake-build-debug/CMakeFiles /Users/pyamcha/Desktop/cpp02/ex02/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pyamcha/Desktop/c02/ex02/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pyamcha/Desktop/cpp02/ex02/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ ex02/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
 .PHONY : ex02/fast
 
+Fixed.o: Fixed.cpp.o
+.PHONY : Fixed.o
+
+# target to build an object file
+Fixed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Fixed.cpp.o
+.PHONY : Fixed.cpp.o
+
+Fixed.i: Fixed.cpp.i
+.PHONY : Fixed.i
+
+# target to preprocess a source file
+Fixed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Fixed.cpp.i
+.PHONY : Fixed.cpp.i
+
+Fixed.s: Fixed.cpp.s
+.PHONY : Fixed.s
+
+# target to generate assembly for a file
+Fixed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Fixed.cpp.s
+.PHONY : Fixed.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex02"
+	@echo "... Fixed.o"
+	@echo "... Fixed.i"
+	@echo "... Fixed.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

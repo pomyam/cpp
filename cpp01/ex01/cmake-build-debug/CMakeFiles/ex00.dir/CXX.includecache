@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pyamcha/Desktop/c01/ex01/ ZombieHorde.cpp
+Zombie.hpp
+/Users/pyamcha/Desktop/c01/ex01/Zombie.hpp
+
+/Users/pyamcha/Desktop/c01/ex01/Zombie.cpp
+Zombie.hpp
+/Users/pyamcha/Desktop/c01/ex01/Zombie.hpp
+
+/Users/pyamcha/Desktop/c01/ex01/Zombie.hpp
+iostream
+-
+string
+-
+iomanip
+-
+
+/Users/pyamcha/Desktop/c01/ex01/main.cpp
+Zombie.hpp
+/Users/pyamcha/Desktop/c01/ex01/Zombie.hpp
+

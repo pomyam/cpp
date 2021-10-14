@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pyamcha/Desktop/c01/ex06/Karen.cpp
+Karen.hpp
+/Users/pyamcha/Desktop/c01/ex06/Karen.hpp
+
+/Users/pyamcha/Desktop/c01/ex06/Karen.hpp
+iostream
+-
+string
+-
+
+/Users/pyamcha/Desktop/c01/ex06/main.cpp
+Karen.hpp
+/Users/pyamcha/Desktop/c01/ex06/Karen.hpp
+

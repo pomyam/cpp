@@ -1,12 +1,13 @@
-NAME = ex03
+NAME = ex02
 
 SRC = Fixed.cpp
+
+DEPS = $(SRC:.cpp=.d)
 
 OBJS = $(SRC:.cpp=.o)
 
 FLAGS = -Wall -Wextra -Werror
 
-HEADER = Fixed.hpp
 HEADER = Fixed.hpp
 
 all: $(NAME)
@@ -15,7 +16,7 @@ $(NAME): $(OBJS) main.cpp
 		clang++ $(FLAGS) main.cpp $(OBJS) -o $(NAME)
 
 clean:
-		rm -f $(OBJS)
+		rm -f $(OBJS) $(DEPS)
 
 fclean: clean
 		rm -f $(NAME)

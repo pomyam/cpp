@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ex02.dir/Fixed.cpp.o"
   "CMakeFiles/ex02.dir/main.cpp.o"
   "ex02"
   "ex02.pdb"
